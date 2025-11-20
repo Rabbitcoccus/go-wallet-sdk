@@ -8,7 +8,7 @@ Sui SDK is used to interact with the Sui blockchain, it contains various functio
 To obtain the latest version, simply require the project using :
 
 ```shell
-go get -u github.com/okx/go-wallet-sdk/coins/sui
+go get -u github.com/Rabbitcoccus/go-wallet-sdk/coins/sui
 ```
 
 ## Usage
@@ -80,4 +80,4 @@ res, err := Execute(&Request{Data: string(raw)}, addr, recipient, gasBudget, gas
 ```
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/coins/sui/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/Rabbitcoccus/go-wallet-sdk/blob/main/coins/sui/LICENSE>) licensed, see package or folder for the respective license.

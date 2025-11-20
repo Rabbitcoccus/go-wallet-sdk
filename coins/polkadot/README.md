@@ -8,7 +8,7 @@ Polkadot SDK is used to interact with the Polkadot blockchain, it contains vario
 To obtain the latest version, simply require the project using :
 
 ```shell
-go get -u github.com/okx/go-wallet-sdk/coins/polkadot
+go get -u github.com/Rabbitcoccus/go-wallet-sdk/coins/polkadot
 ```
 
 ## Usage
@@ -51,4 +51,4 @@ go get -u github.com/okx/go-wallet-sdk/coins/polkadot
 If you are the original author and would like credit adjusted, please contact us.
 
 ## License
-Most packages or folder are [MIT](<https://github.com/okx/go-wallet-sdk/blob/main/coins/polkadot/LICENSE>) licensed, see package or folder for the respective license.
+Most packages or folder are [MIT](<https://github.com/Rabbitcoccus/go-wallet-sdk/blob/main/coins/polkadot/LICENSE>) licensed, see package or folder for the respective license.
