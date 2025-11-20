@@ -1,4 +1,4 @@
-module github.com/okx/go-wallet-sdk/coins/tron
+module github.com/Rabbitcoccus/go-wallet-sdk/coins/tron
 
 go 1.22
 
