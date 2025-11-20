@@ -1,4 +1,4 @@
-module github.com/okx/go-wallet-sdk/util
+module github.com/Rabbitcoccus/go-wallet-sdk/util
 
 go 1.19
 

@@ -3,10 +3,10 @@ package bitcoin
 import (
 	"bytes"
 	"encoding/hex"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/bitcoin"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/btcutil/psbt"
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/okx/go-wallet-sdk/coins/bitcoin"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

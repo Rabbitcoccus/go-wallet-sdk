@@ -3,9 +3,9 @@ package atomical
 import (
 	"bytes"
 	"encoding/hex"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/bitcoin"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/btcutil/psbt"
-	"github.com/okx/go-wallet-sdk/coins/bitcoin"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

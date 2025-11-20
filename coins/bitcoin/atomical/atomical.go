@@ -3,13 +3,13 @@ package atomical
 import (
 	"errors"
 	"fmt"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/bitcoin"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/okx/go-wallet-sdk/coins/bitcoin"
 	"sort"
 )
 
