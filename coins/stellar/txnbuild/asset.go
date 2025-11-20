@@ -2,8 +2,8 @@ package txnbuild
 
 import (
 	"bytes"
-	"github.com/okx/go-wallet-sdk/coins/stellar/support/errors"
-	"github.com/okx/go-wallet-sdk/coins/stellar/xdr"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/stellar/support/errors"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/stellar/xdr"
 )
 
 // AssetType represents the type of a Stellar asset.

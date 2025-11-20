@@ -2,8 +2,8 @@ package v2
 
 import (
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/bcs"
-	"github.com/okx/go-wallet-sdk/util"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/bcs"
+	"github.com/Rabbitcoccus/go-wallet-sdk/util"
 	"math/big"
 )
 

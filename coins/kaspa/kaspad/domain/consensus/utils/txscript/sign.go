@@ -5,13 +5,13 @@
 package txscript
 
 import (
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/dagconfig"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/util"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/dagconfig"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/util"
 	"github.com/pkg/errors"
 )
 

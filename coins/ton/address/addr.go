@@ -10,7 +10,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/ton/crc16"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/ton/crc16"
 	"strconv"
 	"strings"
 )

@@ -1,13 +1,13 @@
-module github.com/okx/go-wallet-sdk/coins/aptos
+module github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos
 
 go 1.22
 
 toolchain go1.23.7
 
 require (
-	github.com/okx/go-wallet-sdk/crypto v0.0.3-0.20251024080621-9551141c0d3d
-	github.com/okx/go-wallet-sdk/util v0.0.4
-	github.com/okx/go-wallet-sdk/wallet v0.0.0-20231109124131-23d8b0dd4b6f
+	github.com/Rabbitcoccus/go-wallet-sdk/crypto v0.0.3-0.20251024080621-9551141c0d3d
+	github.com/Rabbitcoccus/go-wallet-sdk/util v0.0.4
+	github.com/Rabbitcoccus/go-wallet-sdk/wallet v0.0.0-20231109124131-23d8b0dd4b6f
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/crypto v0.23.0
 )

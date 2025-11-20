@@ -2,9 +2,9 @@ package osmo
 
 import (
 	"errors"
-	"github.com/okx/go-wallet-sdk/coins/cosmos"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/osmo/tx/gamm"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/types"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/osmo/tx/gamm"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/types"
 )
 
 const (

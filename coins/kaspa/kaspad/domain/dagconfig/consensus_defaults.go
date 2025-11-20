@@ -1,7 +1,7 @@
 package dagconfig
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/utils/constants"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/utils/constants"
 	"time"
 )
 

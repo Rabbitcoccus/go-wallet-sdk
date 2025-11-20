@@ -1,6 +1,6 @@
 package util
 
-import "github.com/okx/go-wallet-sdk/crypto/base58"
+import "github.com/Rabbitcoccus/go-wallet-sdk/crypto/base58"
 
 func CheckDecodeDoubleV(s string) (result []byte, version [2]byte, err error) {
 	decoded, vByte, err := base58.CheckDecode(s)

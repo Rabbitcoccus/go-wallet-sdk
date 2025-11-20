@@ -3,8 +3,8 @@ package strkey
 import (
 	"bytes"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/stellar/support/errors"
-	xdr "github.com/okx/go-wallet-sdk/coins/stellar/xdr3"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/stellar/support/errors"
+	xdr "github.com/Rabbitcoccus/go-wallet-sdk/coins/stellar/xdr3"
 )
 
 type MuxedAccount struct {

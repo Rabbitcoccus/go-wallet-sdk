@@ -2,7 +2,7 @@ package subnetworks
 
 import (
 	"encoding/hex"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
 )
 
 // FromString creates a DomainSubnetworkID from the given byte slice

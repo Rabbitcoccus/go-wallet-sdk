@@ -3,7 +3,7 @@ package ton
 import (
 	"crypto/ed25519"
 	"encoding/hex"
-	"github.com/okx/go-wallet-sdk/coins/ton/ton/wallet"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/ton/ton/wallet"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

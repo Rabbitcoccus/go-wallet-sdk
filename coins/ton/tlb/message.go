@@ -3,8 +3,8 @@ package tlb
 import (
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/ton/address"
-	"github.com/okx/go-wallet-sdk/coins/ton/tvm/cell"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/ton/address"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/ton/tvm/cell"
 )
 
 type MsgType string
@@ -109,9 +109,9 @@ func (m *ExternalMessage) NormalizedHash() []byte {
 		MustStoreUInt(0b10, 2).
 		MustStoreAddr(nil). // no src addr
 		MustStoreAddr(m.DstAddr).
-		MustStoreCoins(0). // no import fee
+		MustStoreCoins(0).       // no import fee
 		MustStoreBoolBit(false). // no state init
-		MustStoreBoolBit(true). // body always in ref
+		MustStoreBoolBit(true).  // body always in ref
 		MustStoreRef(body).
 		EndCell().Hash()
 }

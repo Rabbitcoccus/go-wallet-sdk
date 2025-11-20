@@ -3,7 +3,7 @@ package polkadot
 import (
 	"encoding/hex"
 
-	"github.com/okx/go-wallet-sdk/crypto/ss58"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/ss58"
 )
 
 var (

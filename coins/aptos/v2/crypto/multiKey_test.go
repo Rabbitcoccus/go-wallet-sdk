@@ -2,7 +2,7 @@ package crypto
 
 import (
 	"encoding/hex"
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/bcs"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/bcs"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

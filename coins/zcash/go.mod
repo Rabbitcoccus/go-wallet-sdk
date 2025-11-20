@@ -1,10 +1,10 @@
-module github.com/okx/go-wallet-sdk/coins/zcash
+module github.com/Rabbitcoccus/go-wallet-sdk/coins/zcash
 
 go 1.23.7
 
 require (
-	github.com/okx/go-wallet-sdk/crypto v0.0.3-0.20251027013407-f2a62ac7d165
-	github.com/okx/go-wallet-sdk/util v0.0.5-0.20251027013407-f2a62ac7d165
+	github.com/Rabbitcoccus/go-wallet-sdk/crypto v0.0.3-0.20251027013407-f2a62ac7d165
+	github.com/Rabbitcoccus/go-wallet-sdk/util v0.0.5-0.20251027013407-f2a62ac7d165
 	github.com/stretchr/testify v1.8.4
 )
 

@@ -1,9 +1,9 @@
 package bitcoin
 
 import (
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/base58"
 	"github.com/btcsuite/btcd/btcutil"
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/okx/go-wallet-sdk/crypto/base58"
 )
 
 const (

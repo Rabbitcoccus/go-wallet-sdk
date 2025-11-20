@@ -7,9 +7,9 @@ import (
 
 	time "time"
 
-	"github.com/okx/go-wallet-sdk/coins/cosmos"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/osmo/tx"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/types"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/osmo/tx"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/types"
 )
 
 // Check account details

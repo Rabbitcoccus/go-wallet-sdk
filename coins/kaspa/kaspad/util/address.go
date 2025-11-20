@@ -5,7 +5,7 @@
 package util
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/util/bech32"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/util/bech32"
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2b"
 )

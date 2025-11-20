@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"math/big"
 
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto"
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/okx/go-wallet-sdk/crypto"
 )
 
 type SignatureData struct {

@@ -3,7 +3,7 @@ package zcash
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/zec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/zec"
 )
 
 // This only works for transparent transactions

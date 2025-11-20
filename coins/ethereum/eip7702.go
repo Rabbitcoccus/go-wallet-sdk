@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/Rabbitcoccus/go-wallet-sdk/util"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/okx/go-wallet-sdk/util"
 )
 
 const (

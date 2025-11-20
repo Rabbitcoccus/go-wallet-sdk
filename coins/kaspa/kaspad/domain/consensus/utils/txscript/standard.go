@@ -6,10 +6,10 @@ package txscript
 
 import (
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/utils/constants"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/dagconfig"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/util"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/utils/constants"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/dagconfig"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/util"
 
 	"github.com/pkg/errors"
 )

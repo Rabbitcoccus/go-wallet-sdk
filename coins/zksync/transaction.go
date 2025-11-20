@@ -1,7 +1,7 @@
 package zksync
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/zksync/core"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/zksync/core"
 	"math/big"
 	"strconv"
 )

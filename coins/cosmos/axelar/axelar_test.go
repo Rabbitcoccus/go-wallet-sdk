@@ -1,7 +1,7 @@
 package axelar
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/cosmos"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

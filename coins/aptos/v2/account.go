@@ -1,8 +1,8 @@
 package v2
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/crypto"
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/internal/types"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/crypto"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/internal/types"
 )
 
 // Re-export types so that way the user experience doesn't change

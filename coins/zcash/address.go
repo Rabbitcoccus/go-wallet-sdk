@@ -1,6 +1,6 @@
 package zcash
 
-import "github.com/okx/go-wallet-sdk/util"
+import "github.com/Rabbitcoccus/go-wallet-sdk/util"
 
 func ValidateAddress(address string) bool {
 	_, v, err := util.CheckDecodeDoubleV(address)

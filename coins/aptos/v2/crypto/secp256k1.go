@@ -2,10 +2,10 @@ package crypto
 
 import (
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/bcs"
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/internal/util"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/bcs"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/internal/util"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
 )
 
 //region Secp256k1PrivateKey

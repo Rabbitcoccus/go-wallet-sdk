@@ -18,8 +18,8 @@ package keytools
 
 import (
 	"crypto/rand"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/zil/util"
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/okx/go-wallet-sdk/coins/zil/util"
 	"math/big"
 )
 

@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/okx/go-wallet-sdk/crypto/base58"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/base58"
 	"github.com/stretchr/testify/require"
 
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
-	"github.com/okx/go-wallet-sdk/coins/solana/token"
-	"github.com/okx/go-wallet-sdk/crypto/ed25519"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/solana/base"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/solana/token"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/ed25519"
 )
 
 func TestNewAddress(t *testing.T) {

@@ -1,8 +1,8 @@
 package serialization
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/util/binaryserializer"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/util/binaryserializer"
 	"github.com/pkg/errors"
 	"io"
 )

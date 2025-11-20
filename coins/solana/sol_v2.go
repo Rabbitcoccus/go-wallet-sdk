@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/base58"
 	"github.com/blocto/solana-go-sdk/common"
 	"github.com/blocto/solana-go-sdk/types"
-	"github.com/okx/go-wallet-sdk/crypto/base58"
 )
 
 func NewAddressFromPubkey(pubkey []byte) (addr string, err error) {

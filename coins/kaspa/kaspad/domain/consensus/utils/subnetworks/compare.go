@@ -2,7 +2,7 @@ package subnetworks
 
 import (
 	"bytes"
-	"github.com/okx/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/kaspa/kaspad/domain/consensus/model/externalapi"
 )
 
 // Less returns true iff id a is less than id b

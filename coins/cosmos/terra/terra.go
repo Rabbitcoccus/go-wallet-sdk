@@ -4,11 +4,11 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"encoding/hex"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/tx"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/types"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/btcsuite/btcd/btcutil/bech32"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/tx"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/types"
 	"golang.org/x/crypto/ripemd160"
 	"math/big"
 )

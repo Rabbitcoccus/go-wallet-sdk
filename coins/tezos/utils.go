@@ -2,7 +2,7 @@ package tezos
 
 import (
 	"bytes"
-	"github.com/okx/go-wallet-sdk/coins/tezos/types"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/tezos/types"
 )
 
 const (

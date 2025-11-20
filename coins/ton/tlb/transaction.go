@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/okx/go-wallet-sdk/coins/ton/tvm/cell"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/ton/tvm/cell"
 )
 
 func init() {

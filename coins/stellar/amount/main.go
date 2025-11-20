@@ -10,8 +10,8 @@
 package amount
 
 import (
-	"github.com/okx/go-wallet-sdk/coins/stellar/support/errors"
-	"github.com/okx/go-wallet-sdk/coins/stellar/xdr"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/stellar/support/errors"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/stellar/xdr"
 	"math/big"
 	"regexp"
 	"strconv"

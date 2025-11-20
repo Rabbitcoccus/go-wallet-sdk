@@ -3,8 +3,8 @@ package crypto
 import (
 	"crypto/ed25519"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/bcs"
-	"github.com/okx/go-wallet-sdk/coins/aptos/v2/internal/util"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/bcs"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/aptos/v2/internal/util"
 )
 
 // region MultiEd25519PublicKey

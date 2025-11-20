@@ -3,7 +3,7 @@ package xdr
 import (
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/coins/stellar/strkey"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/stellar/strkey"
 	"regexp"
 	"strings"
 )

@@ -13,8 +13,8 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/base58"
 	"github.com/agl/ed25519/edwards25519"
-	"github.com/okx/go-wallet-sdk/crypto/base58"
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/sha3"
 )

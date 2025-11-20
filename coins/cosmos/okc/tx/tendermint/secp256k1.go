@@ -5,8 +5,8 @@ import (
 	"crypto/sha256"
 	"crypto/subtle"
 	"fmt"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/okc/tx/amino"
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/okc/tx/amino"
 	"golang.org/x/crypto/ripemd160"
 )
 

@@ -2,10 +2,10 @@ package types
 
 import (
 	"encoding/json"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/okc/tx/amino"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/okc/tx/common"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/okc/tx/common/types"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/okc/tx/tendermint"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/okc/tx/amino"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/okc/tx/common"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/okc/tx/common/types"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/okc/tx/tendermint"
 )
 
 var (

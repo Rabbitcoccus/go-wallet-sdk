@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/solana/base"
 )
 
 // Thaw a Frozen account using the Mint's freeze_authority (if set).

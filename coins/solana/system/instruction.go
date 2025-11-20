@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/okx/go-wallet-sdk/coins/solana/base"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/solana/base"
 )
 
 const (

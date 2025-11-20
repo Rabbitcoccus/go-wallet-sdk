@@ -5,6 +5,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
+	"github.com/Rabbitcoccus/go-wallet-sdk/util"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/btcsuite/btcd/btcec/v2/schnorr"
@@ -13,7 +14,6 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/okx/go-wallet-sdk/util"
 	"strings"
 )
 
@@ -81,12 +81,12 @@ func (build *TransactionBuilder) AddOutput(address string, amount string) {
 func (build *TransactionBuilder) checkChangeValue() bool {
 	inSum := int64(0)
 	for _, input := range build.inputs {
-		inSum += util.ConvertToBigInt(input.value).Int64()
+		inSum += util.ToInt64(input.value)
 	}
 
 	outSum := int64(0)
 	for _, output := range build.outputs {
-		outSum += util.ConvertToBigInt(output.amount).Int64()
+		outSum += util.ToInt64(output.amount)
 	}
 
 	change := inSum - outSum
@@ -197,7 +197,7 @@ func (build *TransactionBuilder) Build() (string, error) {
 		prevPkScripts = append(prevPkScripts, pkScript)
 
 		prevOuts.AddPrevOut(*outPoint, &wire.TxOut{
-			Value:    util.ConvertToBigInt(input.value).Int64(),
+			Value:    util.ToInt64(input.value),
 			PkScript: pkScript,
 		})
 	}
@@ -208,7 +208,7 @@ func (build *TransactionBuilder) Build() (string, error) {
 		if err != nil {
 			return "", err
 		}
-		txOut := wire.NewTxOut(util.ConvertToBigInt(output.amount).Int64(), script)
+		txOut := wire.NewTxOut(util.ToInt64(output.amount), script)
 		tx.TxOut = append(tx.TxOut, txOut)
 	}
 
@@ -223,7 +223,7 @@ func (build *TransactionBuilder) Build() (string, error) {
 			return "", err
 		}
 		isSegWit := oneIndex > 1 && strings.ToLower(input.address[:oneIndex]) == build.params.Bech32HRPSegwit
-		amount := util.ConvertToBigInt(input.value).Int64()
+		amount := util.ToInt64(input.value)
 		// the address is taproot address
 		if isTaproot {
 			//create taproot script

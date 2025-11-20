@@ -3,10 +3,10 @@ package harmony
 import (
 	"encoding/hex"
 	"errors"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/ethereum"
+	"github.com/Rabbitcoccus/go-wallet-sdk/util"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcutil/bech32"
-	"github.com/okx/go-wallet-sdk/coins/ethereum"
-	"github.com/okx/go-wallet-sdk/util"
 	"math/big"
 	"strings"
 )

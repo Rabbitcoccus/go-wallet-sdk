@@ -2,9 +2,9 @@ package atom
 
 import (
 	"encoding/hex"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos"
+	"github.com/Rabbitcoccus/go-wallet-sdk/coins/cosmos/types/ibc"
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/okx/go-wallet-sdk/coins/cosmos"
-	"github.com/okx/go-wallet-sdk/coins/cosmos/types/ibc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"math/big"
