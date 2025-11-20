@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
 )
 
 // MaxBlockHeaderPayload is the maximum number of bytes a block header can be.

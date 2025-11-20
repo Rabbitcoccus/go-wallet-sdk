@@ -13,8 +13,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // SigHashType represents hash type bits at the end of a signature.

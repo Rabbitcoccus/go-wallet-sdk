@@ -7,8 +7,8 @@ package chaincfg
 import (
 	"time"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/wire"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

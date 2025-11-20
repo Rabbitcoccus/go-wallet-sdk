@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/btcec"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/wire"
 )
 
 // RawTxInWitnessSignature returns the serialized ECDA signature for the input

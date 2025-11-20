@@ -15,8 +15,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/txscript"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/txscript"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // isFinalized considers this input finalized if it contains at least one of

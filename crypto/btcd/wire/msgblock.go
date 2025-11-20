@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

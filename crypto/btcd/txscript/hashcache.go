@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/wire"
 )
 
 // TxSigHashes houses the partial set of sighashes introduced within BIP0143.

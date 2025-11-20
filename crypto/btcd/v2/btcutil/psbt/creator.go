@@ -5,7 +5,7 @@
 package psbt
 
 import (
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // MinTxVersion is the lowest transaction version that we'll permit.

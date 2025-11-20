@@ -13,8 +13,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // psbtMagicLength is the length of the magic bytes used to signal the start of

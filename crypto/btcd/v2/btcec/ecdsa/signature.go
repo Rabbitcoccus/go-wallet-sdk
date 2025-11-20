@@ -8,10 +8,10 @@ package ecdsa
 import (
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 	"math/big"
 
-	secp_ecdsa "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
+	secp_ecdsa "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
 )
 
 // Errors returned by canonicalPadding.

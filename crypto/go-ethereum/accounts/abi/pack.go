@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/common"
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/common/math"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/common"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/common/math"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

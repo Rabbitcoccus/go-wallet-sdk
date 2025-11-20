@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default

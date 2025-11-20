@@ -9,12 +9,12 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 	"strings"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil/bech32"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil/bech32"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg"
 	"golang.org/x/crypto/ripemd160"
 )
 

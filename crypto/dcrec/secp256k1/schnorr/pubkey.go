@@ -7,7 +7,7 @@ package schnorr
 
 import (
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 )
 
 // These constants define the lengths of serialized public keys.

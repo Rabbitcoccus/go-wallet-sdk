@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/common"
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/crypto"
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/params"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/common"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/crypto"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

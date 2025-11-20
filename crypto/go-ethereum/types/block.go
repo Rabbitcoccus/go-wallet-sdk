@@ -17,7 +17,7 @@
 // Package types contains data types related to Ethereum consensus.
 package types
 
-import "github.com/okx/go-wallet-sdk/crypto/go-ethereum/common"
+import "github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/common"
 
 type writeCounter common.StorageSize
 

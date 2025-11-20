@@ -1,6 +1,6 @@
 package btcec
 
-import secp "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+import secp "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 
 // FieldVal implements optimized fixed-precision arithmetic over the secp256k1
 // finite field. This means all arithmetic is performed modulo

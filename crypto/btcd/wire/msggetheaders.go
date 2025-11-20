@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
 )
 
 // MsgGetHeaders implements the Message interface and represents a bitcoin

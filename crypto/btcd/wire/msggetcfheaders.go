@@ -7,7 +7,7 @@ package wire
 import (
 	"io"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
 )
 
 // MsgGetCFHeaders is a message similar to MsgGetHeaders, but for committed

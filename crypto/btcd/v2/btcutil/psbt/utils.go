@@ -12,8 +12,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/txscript"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/txscript"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // WriteTxWitness is a utility function due to non-exported witness

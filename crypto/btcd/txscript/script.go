@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the
@@ -320,7 +320,7 @@ func DisasmString(buf []byte) (string, error) {
 	return disbuf.String(), err
 }
 
-// removeOpcode will remove any opcode matching ``opcode'' from the opcode
+// removeOpcode will remove any opcode matching “opcode” from the opcode
 // stream in pkscript
 func removeOpcode(pkscript []parsedOpcode, opcode byte) []parsedOpcode {
 	retScript := make([]parsedOpcode, 0, len(pkscript))

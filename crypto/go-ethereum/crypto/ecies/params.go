@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/okx/go-wallet-sdk/crypto/go-ethereum/crypto"
+	ethcrypto "github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/crypto"
 )
 
 var (

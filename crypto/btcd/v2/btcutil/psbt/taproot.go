@@ -3,9 +3,9 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/schnorr"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/txscript"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/schnorr"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/txscript"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 const (

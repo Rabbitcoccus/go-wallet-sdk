@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/btcec"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

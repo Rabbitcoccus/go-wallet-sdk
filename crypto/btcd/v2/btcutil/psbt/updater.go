@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"crypto/sha256"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/txscript"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/txscript"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // Updater encapsulates the role 'Updater' as specified in BIP174; it accepts

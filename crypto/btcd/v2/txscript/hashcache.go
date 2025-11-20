@@ -10,8 +10,8 @@ import (
 	"math"
 	"sync"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // calcHashPrevOuts calculates a single hash of all the previous outputs

@@ -11,15 +11,15 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 	"hash"
 	"strings"
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // An opcode defines the information related to a txscript opcode.  opfunc, if

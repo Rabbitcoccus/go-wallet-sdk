@@ -7,9 +7,9 @@ package schnorr
 
 import (
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 
-	secp "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+	secp "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 )
 
 // These constants define the lengths of serialized public keys.

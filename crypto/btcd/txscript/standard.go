@@ -7,9 +7,9 @@ package txscript
 import (
 	"fmt"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/btcec"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/wire"
 )
 
 const (

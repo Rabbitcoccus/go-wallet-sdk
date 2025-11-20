@@ -2,8 +2,8 @@ package psbt
 
 import (
 	"bytes"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
 )
 
 // PartialSig encapsulate a (BTC public key, ECDSA signature)

@@ -6,7 +6,7 @@ package schnorr
 
 import (
 	"encoding/hex"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 	"testing"
 )
 

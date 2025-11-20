@@ -4,10 +4,10 @@ package schnorr
 
 import (
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
-	secp "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
-	ecdsa_schnorr "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1/schnorr"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	secp "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
+	ecdsa_schnorr "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1/schnorr"
 )
 
 const (

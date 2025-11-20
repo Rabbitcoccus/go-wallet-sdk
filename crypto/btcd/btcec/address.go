@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil/bech32"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

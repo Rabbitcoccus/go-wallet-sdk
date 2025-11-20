@@ -6,12 +6,12 @@ package txscript
 
 import (
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/schnorr"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/schnorr"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // signatureVerifier is an abstract interface that allows the op code execution

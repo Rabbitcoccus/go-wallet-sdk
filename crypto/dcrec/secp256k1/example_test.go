@@ -12,7 +12,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 )
 
 // This example demonstrates use of GenerateSharedSecret to encrypt a message

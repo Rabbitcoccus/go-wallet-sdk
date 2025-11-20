@@ -25,8 +25,8 @@
 //	        "fmt"
 //	        "log"
 //
-//	        "github.com/okx/go-wallet-sdk/crypto/btcd/btcutil"
-//	        "github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg"
+//	        "github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/btcutil"
+//	        "github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg"
 //	)
 //
 //	var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

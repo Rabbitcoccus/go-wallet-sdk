@@ -21,8 +21,8 @@ package secp256k1
 import (
 	"crypto/cipher"
 	"fmt"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
 	"go.dedis.ch/kyber/v3"
 	"go.dedis.ch/kyber/v3/util/random"
 	"io"

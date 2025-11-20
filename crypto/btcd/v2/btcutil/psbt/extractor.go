@@ -12,8 +12,8 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/txscript"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/txscript"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // Extract takes a finalized psbt.Packet and outputs a finalized transaction

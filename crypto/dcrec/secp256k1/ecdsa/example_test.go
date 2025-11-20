@@ -8,9 +8,9 @@ package ecdsa_test
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/blake256"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/blake256"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

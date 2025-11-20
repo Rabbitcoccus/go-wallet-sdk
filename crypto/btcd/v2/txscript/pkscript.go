@@ -4,12 +4,12 @@ import (
 	"crypto/sha256"
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/btcec"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 	"golang.org/x/crypto/ripemd160"
 )
 

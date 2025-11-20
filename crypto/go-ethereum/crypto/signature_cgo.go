@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/common/math"
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/crypto/secp256k1"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/common/math"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

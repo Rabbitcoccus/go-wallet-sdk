@@ -7,10 +7,10 @@ package btcutil
 import (
 	"bytes"
 	"errors"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/common"
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/crypto"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/common"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

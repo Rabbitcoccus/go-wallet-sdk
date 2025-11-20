@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/blake2b"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/okx/go-wallet-sdk/crypto/blake2b"
 	"io"
 )
 

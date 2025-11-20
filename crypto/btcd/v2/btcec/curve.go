@@ -6,7 +6,7 @@ package btcec
 import (
 	"fmt"
 
-	secp "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+	secp "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 )
 
 // JacobianPoint is an element of the group formed by the secp256k1 curve in

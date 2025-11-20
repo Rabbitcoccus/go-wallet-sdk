@@ -4,7 +4,7 @@
 package btcec
 
 import (
-	secp "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+	secp "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 )
 
 // ModNScalar implements optimized 256-bit constant-time fixed-precision

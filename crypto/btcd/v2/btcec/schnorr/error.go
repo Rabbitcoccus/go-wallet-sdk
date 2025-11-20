@@ -6,7 +6,7 @@
 package schnorr
 
 import (
-	ecdsa_schnorr "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1/schnorr"
+	ecdsa_schnorr "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1/schnorr"
 )
 
 // ErrorKind identifies a kind of error.  It has full support for errors.Is

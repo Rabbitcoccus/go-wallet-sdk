@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/btcec"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the

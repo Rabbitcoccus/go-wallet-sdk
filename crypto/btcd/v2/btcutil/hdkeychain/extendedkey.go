@@ -16,13 +16,13 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 	"math/big"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil/base58"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg/chainhash"
 )
 
 const (

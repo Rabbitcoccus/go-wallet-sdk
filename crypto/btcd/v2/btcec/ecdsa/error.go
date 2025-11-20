@@ -4,7 +4,7 @@
 package ecdsa
 
 import (
-	secp_ecdsa "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
+	secp_ecdsa "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1/ecdsa"
 )
 
 // ErrorKind identifies a kind of error.  It has full support for

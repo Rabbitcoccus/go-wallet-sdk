@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the

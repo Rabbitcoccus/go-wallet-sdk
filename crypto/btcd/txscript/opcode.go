@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/btcec"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/chaincfg/chainhash"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/wire"
 	"golang.org/x/crypto/ripemd160"
 )
 

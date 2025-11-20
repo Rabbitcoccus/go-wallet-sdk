@@ -5,7 +5,7 @@
 package btcec
 
 import (
-	secp "github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
+	secp "github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
 )
 
 // GenerateSharedSecret generates a shared secret based on a private key and a

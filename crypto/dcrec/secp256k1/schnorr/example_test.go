@@ -7,9 +7,9 @@ package schnorr_test
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/okx/go-wallet-sdk/crypto/blake256"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1"
-	"github.com/okx/go-wallet-sdk/crypto/dcrec/secp256k1/schnorr"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/blake256"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/dcrec/secp256k1/schnorr"
 )
 
 // This example demonstrates signing a message with the EC-Schnorr-DCRv0 scheme

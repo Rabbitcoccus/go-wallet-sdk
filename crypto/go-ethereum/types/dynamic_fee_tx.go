@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/okx/go-wallet-sdk/crypto/go-ethereum/common"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/go-ethereum/common"
 )
 
 type DynamicFeeTx struct {

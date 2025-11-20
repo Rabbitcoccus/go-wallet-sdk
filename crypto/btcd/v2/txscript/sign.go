@@ -6,14 +6,14 @@ package txscript
 
 import (
 	"errors"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/schnorr"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcutil"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/schnorr"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcutil"
 
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/chaincfg"
-	"github.com/okx/go-wallet-sdk/crypto/btcd/v2/wire"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/btcec/ecdsa"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/chaincfg"
+	"github.com/Rabbitcoccus/go-wallet-sdk/crypto/btcd/v2/wire"
 )
 
 // RawTxInWitnessSignature returns the serialized ECDA signature for the input
